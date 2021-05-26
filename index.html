@@ -427,16 +427,12 @@
         </div>
     </div>
 
-
-
-
-
-<!-- Start Contact Area 
+      <!-- Start Contact Area 
     ============================================= -->
     <div id="contact" class="contact-area default-padding">
         <div class="container">
             <div class="row align-center">
-                <div class="col-lg-5 info offset-lg-4 ">
+                <div class="col-lg-5 info">
                     <h2>Let's talk?</h2>
                     <p>
                         It's all about the humans behind a brand and those experiencing it, we're right there. In the middle.
@@ -456,9 +452,56 @@
                         </li>
                     </ul>
                 </div>
+                <div class="col-lg-6 offset-lg-1 contact-form-box">
+                    <div class="form-box">
+                        <form  method="POST" name="contact-form" class="contact-form" data-netlify="true">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                        <span class="alert-error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group comments">
+                                        <textarea class="form-control" id="comments" name="comments" placeholder="Tell Us About Project *"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" name="submit" id="submit">
+                                        Send Message <i class="fa fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Alert Message -->
+                            <div class="col-lg-12 alert-notification">
+                                <div id="message" class="alert-msg"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!-- End Contact Area -->
     <!-- End Contact Area -->
     <footer class="bg-dark text-light">
         <div class="container">
