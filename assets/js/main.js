@@ -332,7 +332,7 @@
             var formInstance = $(this);
             formInstance.submit(function() {
 
-                var action = $(this).attr('action');
+                var action = "https://codevelom.netlify.app/"; //$(this).attr('action');
 
                 $("#message").slideUp(750, function() {
                     $('#message').hide();
